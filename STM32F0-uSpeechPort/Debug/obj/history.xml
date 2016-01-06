@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 4.8.1 mingw32 -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F051R8 -DSTM32F0XX_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\STM32F0-uSpeechPort\cmsis_boot -I..\..\..\workspace\STM32F0-uSpeechPort -I..\..\..\workspace\STM32F0-uSpeechPort\cmsis_core -I..\..\..\workspace -I..\..\..\workspace\STM32F0-uSpeechPort\stm32_lib -I..\..\.. -I..\..\..\workspace\STM32F0-uSpeechPort\stm32_lib\inc">
+      <target file="stm32f0xx_adc.o" lastModified="15214a8991f">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_adc.c" lastModified="1521488e767"/>
+      </target>
+      <target file="uspeech_stm.o" lastModified="1521826470f">
+         <source file="..\..\..\uspeech_stm.c" lastModified="1521803ef98"/>
+      </target>
+      <target file="stm32f0xx_gpio.o" lastModified="15214a89f91">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_gpio.c" lastModified="1521488e772"/>
+      </target>
+      <target file="stm32f0xx_tim.o" lastModified="15214a8a187">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_tim.c" lastModified="152149141d8"/>
+      </target>
+      <target file="stm32f0xx_rcc.o" lastModified="15214a897a5">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_rcc.c" lastModified="1521488e786"/>
+      </target>
+      <target file="system_stm32f0xx_temp.o" lastModified="15214a89dc3">
+         <source file="..\..\..\cmsis_boot\system_stm32f0xx_temp.c" lastModified="1521488e79f"/>
+      </target>
+      <target file="main.o" lastModified="152182644e8">
+         <source file="..\..\..\main.c" lastModified="15218262f69"/>
+      </target>
+      <target file="startup_stm32f0xx.o" lastModified="15214a89b44">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="1521488e78c"/>
+      </target>
+   </processor>
+</history>

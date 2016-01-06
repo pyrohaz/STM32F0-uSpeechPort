@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.9.3 -mcpu=cortex-m0 -mthumb -g -nostartfiles -Map=STM32F0-uSpeechPort.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\STM32F0-uSpeechPort -TC:\CooCox\CoIDE\configuration\ProgramData\STM32F0-uSpeechPort/arm-gcc-link.ld -g -L..\..\.. -lm">
+      <target file="STM32F0-uSpeechPort.elf" lastModified="15218264bdf">
+         <source file="..\obj\stm32f0xx_rcc.o" lastModified="15214a897a5"/>
+         <source file="..\obj\stm32f0xx_adc.o" lastModified="15214a8991f"/>
+         <source file="..\obj\main.o" lastModified="152182644e8"/>
+         <source file="..\obj\startup_stm32f0xx.o" lastModified="15214a89b44"/>
+         <source file="..\obj\uspeech_stm.o" lastModified="1521826470f"/>
+         <source file="..\obj\system_stm32f0xx_temp.o" lastModified="15214a89dc3"/>
+         <source file="..\obj\stm32f0xx_gpio.o" lastModified="15214a89f91"/>
+         <source file="..\obj\stm32f0xx_tim.o" lastModified="15214a8a187"/>
+      </target>
+   </processor>
+</history>
